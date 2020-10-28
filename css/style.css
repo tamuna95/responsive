@@ -1,0 +1,498 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* header */
+.banner{
+    position: relative;
+    width:100%;
+
+}
+.nav{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.box-wraper{
+    position: absolute;
+    max-width:1090px;
+    width: 100%;
+    top:40px;
+    left:139px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.ul-wraper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.right-block{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.burger-icon  {
+
+    height:50px;
+    width:30px;
+    color:white;
+    margin-left:20px;
+    display: none;
+}
+.nav-li{
+    margin-left:60px;
+    font-family: 'Poppins';
+}
+.nav-a{
+    color:white;
+}
+.hotel-Name{
+    margin-right:200px;
+    color:white;
+    font-size:14px;
+    font-family: 'Poppins';
+    font-weight: bold;
+
+}
+.title{
+    position: absolute;
+    top:158px;
+    left:139px;
+    font-size:42px;
+    color:white;
+}
+.home{
+    position: absolute;
+    left:139px;
+    top:223px;
+    color:white;
+    font-family: 'Poppins';
+
+
+}
+.home::after{
+    content: "";
+    height:19px;
+    width:2px;
+    background-color:white;
+    display: inline-block;
+    position: absolute;
+    margin-left:20px;
+    
+}
+.aboutus{
+    position: absolute;
+    left:212px;
+    top:223px;
+    color:white;
+    font-family: 'Poppins';
+    margin-left: 10px;
+
+
+}
+
+/* start first section */
+
+.about-wraper{
+    width:444px;
+}
+.p{
+    font-size:14px;
+    color:#5863F8;
+    margin-bottom:20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+
+}
+.p-about{
+    font-size:42px;
+    margin-bottom: 20px;
+    width: 309px;
+    font-family: 'Poppins';
+
+}
+.p1{
+    font-size:16px;
+    margin-bottom:31px;
+    font-family: 'Poppins';
+
+}
+.p2{
+    font-size:14px;
+    margin-bottom: 41px;
+    font-family: 'Poppins';
+
+}
+
+
+.read-more{
+    background-color: #5863F8;
+    width:184px;
+    height:50px;
+    color:white;
+    position: relative;
+    border: none;
+}
+.read-more:hover {
+    background-color:#55ACEE;
+}
+.read-more:focus{
+    outline: none;
+}
+.readMore{
+    position: absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+.img-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top:90px;
+}
+
+.box-image{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom:13px;
+}
+.img-wraper{
+    max-width:536px;
+    width:100%;
+}
+/* second section */
+
+
+.second-section{
+    background-image: url(../image/Details.svg); 
+    width: 100%; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 612px; 
+    margin-top: 67px; }
+
+.p-box
+{
+    font-size:14px; 
+    color: #5863F8;
+     padding-top: 90px; 
+     margin-left:139px ; 
+     margin-bottom: 22px; 
+    }
+.paragraphtitle{
+    color: #FFFFFF;
+    font-size: 42px;  
+    width: 376px; 
+    margin-left: 139px;
+    font-family: 'Poppins';
+
+
+}
+.boxes{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width:1088px;
+    /* align-items: center; */
+    margin-top:34px;
+    margin-left:139px;
+    margin-right: 139px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+   
+
+}
+.box{
+
+    background-color: white;
+    max-width:260px;
+    margin-left:7px;
+
+}
+.circle{
+    background-color: #5863F8;
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 100px;
+    margin-top:36px;
+}
+.hotel{
+    width:32px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+.box1-paragraph1{
+    margin-top:20px;
+    text-align: center;
+    margin-left:50px;
+
+    font-size:18px;
+    width:170px;
+
+
+
+}
+.box1-paragraph2{
+    margin-top:20px;
+    font-size:14px;
+    color:#B1B1B1;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+/* start third section */
+.div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color:#F8F8F8;
+    /* flex-wrap: wrap; */
+
+}
+.wraperr{
+    width:783px;
+    margin-left:139px;
+    
+}
+.Testimonials{
+    color:#5863F8;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top:80px;
+    font-family: 'Poppins';
+}
+.para-wraper{
+    font-size: 42px;
+    width: 433px;
+    margin-top:28px;
+}
+.profile{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top:44px;
+    font-family: 'Poppins';
+
+
+}
+.picture{
+    margin-right: 24px;
+}
+.review{
+    width: 352px;
+    margin-top:29px;
+    font-family: 'Poppins';
+
+}
+
+
+.room{
+    height: 100%;
+}
+
+/* start forth section */
+.images{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.photos{
+    color:#5863F8;
+    font-size:14px;
+    margin-left: 139px;
+    margin-top:94px;
+    font-family: 'Poppins';
+    font-weight: bold;
+
+}
+.photo-para{
+    width:469px;
+    font-size: 42px;
+    margin-left: 139px;
+    margin-top:17px;
+    margin-bottom: 65px;
+    font-family: 'Poppins';
+
+
+
+}
+
+/* footer */
+footer{
+    background-color: #121212;
+}
+.mainfooter{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width:100%;
+    padding-top:95px;
+    padding-bottom: 114px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+/* first-div */
+.first-div{
+    width: 260px;
+
+}
+.zetta{
+
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Poppins';
+
+
+}
+.zetta-para{
+    font-size: 14px;
+    color: #B1B1B1;
+    margin-top:34px;
+
+}
+.social-network{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top:42px;
+    width: 127px;
+}
+.fb,
+.tweeter,
+.google{
+    height:35px;
+    width:35px;
+    border-radius: 50%;
+    position: relative;
+    background-color: black;
+}
+.fb:hover{
+    background-color: #3B5998;
+}
+.tweeter:hover{
+    background-color: #55ACEE;
+}
+.google:hover{
+    background-color: #DC4E41;
+}
+.icon{
+    color: white;    
+    position: absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+
+.second-div{
+    width:555px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+}
+
+.list-links{
+    font-size: 18px;
+    color:white;
+}
+
+
+.li-a{
+    color: white;
+}
+.li-a:hover{
+    color:#5863F8;
+}
+.links{
+    margin-bottom: 26px;
+    width: 92px;
+}
+
+.list{
+    margin-top:20px;
+}
+.icon1{
+    width:16px;
+    margin-right: 20px;
+    
+} 
+.contact-div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top:29px;
+}
+.copyright{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left:139px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;}
+
+.bracket-box{
+    color:#B1B1B1;
+    padding-bottom: 40px;
+
+}
+.Tamuna{
+    color:#5863F8;
+
+}
+.bracket-box::after {
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    height: 15px;
+    width: 2px;
+    margin-left: 10px;
+}
+
+
+
