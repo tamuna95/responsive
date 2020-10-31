@@ -4,29 +4,17 @@
         padding:0 15px;
     }
 }
-@media(max-width:768px){
-    .nav{
-        display: none;
+@media(max-width:1059px){
+    .images{
+        flex-wrap: wrap;
+        flex-direction: column;
     }
-    .burger-icon{
-        display: block;
-    }
-} 
-@media(max-width:570px){
-    .box{
+    .image1{
         margin-bottom: 20px;
     }
-    .box-wraper{
-        justify-content: center;
+    .pic{
+        margin-top:30px;
     }
-   
-}
-@media(max-width:738px){
-    .image-about{
-    flex-wrap: wrap;
-
-    }
-    
 }
 @media(max-width:1105px){
     .room-box{
@@ -36,6 +24,44 @@
         margin-top:20px;
     }
 }
+@media(max-width:810px){
+    .box{
+        margin-bottom: 20px;
+    }
+    .second-div{
+        margin-top:30px;
+    }
+}
+@media(max-width:768px){
+    .nav{
+        display: none;
+    }
+    .burger-icon{
+        display: block;
+    }
+} 
+@media(max-width:738px){
+    .image-about{
+    flex-wrap: wrap;
+
+    }
+    
+}
+@media(max-width:612px){
+    .photo-para{
+        width:50%;    }
+}
+
+@media(max-width:570px){
+    .box{
+        margin-bottom: 20px;
+    }
+    .box-wraper{
+        justify-content: center;
+    }
+   
+}
+
 @media(max-width:580px){
     .room{
         width:100%;
@@ -44,6 +70,30 @@
     .profile{
         width:100%;
     }
+}
+
+@media(max-width:550px){
+    .image-wraper{
+    width:100%; 
+    margin-top:20px;   
+}
+.images{
+    width:100%;
+}
+.image3{
+    width:100%;
+}
+.profile{
+    margin-left:20px;
+}
+.photo-para{
+    
+    font-size:30px;
+}
+.container{
+    padding:0 20px;
+}
+
 }
 @media(max-width:514px){
     .person{
@@ -54,47 +104,18 @@
         width:50%;
 
     }
+    
 }
-@media(max-width:526px){
-    .image-wraper{
-        display: none;
-    }
-}
-@media(max-width:1056px){
-    .images{
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    .pic{
-        margin-top:30px;
-    }
-}
-@media(max-width:612px){
+@media(max-width:450px){
     .photo-para{
-        width:50%;    }
-}
-@media(max-width:585px){
-    /* .font-size:30px;{
-        font-size:30px;
-    } */
-    .room{
-        width:50%;
-        flex-direction: column;
+        max-width:100%;
+        width:100%;
+    font-size:30px;
     }
 }
 
-@media(max-width:350px){
-.photo-para{
-    font-size:20px;
-}
-.pic{
-    width:50%;
-    flex-direction: column;
-}
-}
 @media(max-width:438px){
     .second-div{
-        /* flex-direction:column; */
         flex-wrap: wrap;
         align-items: center;
 
@@ -104,3 +125,29 @@
     }
    
 }
+@media(max-width:438px){
+    .active{
+        margin-top:50px;
+    }
+}
+
+
+@media(max-width:350px){
+
+.pic{
+    width:50%;
+    flex-direction: column;
+}
+.images{
+    align-items: center ;   
+}
+.para-wraper{
+    font-size:30px;
+
+}
+.profile{
+    margin-left:20px;
+}
+}
+
+

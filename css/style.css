@@ -1,9 +1,4 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
+
 
 /* header */
 .bg-header{
@@ -20,15 +15,23 @@
     
 }
 .first-block{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-top: 30px;
-    align-items: baseline;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
 }
 .first-block h2{
     color: white;
 } 
 .nav-ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .nav-li{
@@ -85,6 +88,8 @@
 
 /* start first section */
 .image-box{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
 }
 
@@ -124,8 +129,12 @@
     outline: none;
 }
 .image-about{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-top:30px;
     padding-bottom: 90px;
     height: auto;
@@ -133,10 +142,12 @@
 
 .image3{
     padding-top:16px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .image-wraper{
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 
@@ -161,19 +172,33 @@
     width: 100%;
 }
 .box-wraper{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-top: 48px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .box{
     background-color: white;
     width:260px;
     height: 260px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .hotel{
     height: 32px;
@@ -183,9 +208,15 @@
     height: 58px;
     width:59px;
     border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 
 
 }
@@ -203,10 +234,16 @@
 
 /* start third section */
 .room-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .person{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top:28px;
 
@@ -234,7 +271,8 @@ max-width:433px;
     padding-top: 29px;
 }
 .room{
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 /* start forth section */
@@ -250,16 +288,15 @@ max-width:433px;
 .photos{
     color:#5863F8;
     font-size:14px;
-    margin-left: 139px;
     margin-top:94px;
     font-family: 'Poppins';
     font-weight: bold;
 
 }
 .photo-para{
-    width:469px;
+    max-width:469px;
+    width:100%;
     font-size: 42px;
-    margin-left: 139px;
     margin-top:17px;
     margin-bottom: 65px;
     font-family: 'Poppins';
@@ -280,7 +317,7 @@ footer{
     padding-top:95px;
     padding-bottom: 114px;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+        justify-content: space-between;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
 }
@@ -391,7 +428,6 @@ footer{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left:139px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;}
 
@@ -412,6 +448,5 @@ footer{
     width: 2px;
     margin-left: 10px;
 }
-
 
 
